@@ -14,11 +14,25 @@ public class CameraRestrictions : MonoBehaviour
 
     void Update()
     {
-        //if (ButtonPress)
-        //{
-          //  transform.position = offsetRoom * currentRoom;
-        //}
-
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, currentRoom * offsetRoom +boundsMin.x, currentRoom * offsetRoom +boundsMax.x), 0f, -10f);
+    }
+
+    public void PressedRight()
+    {
+        if(currentRoom <= 1)
+        {
+            currentRoom = currentRoom + 1;
+            transform.position = new Vector2(currentRoom * offsetRoom, 0f);
+        }
+
+    }
+
+    public void PressedLeft()
+    {
+        if(currentRoom >= 1)
+        {
+            currentRoom = currentRoom - 1;
+            transform.position = new Vector2(currentRoom * offsetRoom, 0f);
+        }
     }
 }
