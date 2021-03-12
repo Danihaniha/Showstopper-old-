@@ -734,6 +734,7 @@ GameObject:
   - component: {fileID: 808446648}
   - component: {fileID: 808446647}
   - component: {fileID: 808446646}
+  - component: {fileID: 808446650}
   m_Layer: 5
   m_Name: PlayButton (Placeholder)
   m_TagString: Untagged
@@ -823,7 +824,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 808446648}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 808446650}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &808446648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -862,6 +875,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808446644}
   m_CullTransparentMesh: 1
+--- !u!114 &808446650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808446644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d59a6bc85ea06448923220e54811c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &876118560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,7 +1036,7 @@ MonoBehaviour:
   m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
-  m_PointerBehavior: 0
+  m_PointerBehavior: 2
 --- !u!114 &1026937283
 MonoBehaviour:
   m_ObjectHideFlags: 0

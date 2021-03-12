@@ -8,14 +8,17 @@ public class CameraRestrictions : MonoBehaviour
     public Vector3 boundsMin;
 
     public GameObject cameraToMove;
+    public int currentRoom = 0;
+    public float offsetRoom = 50f;
+
 
     void Update()
     {
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundsMin.x, boundsMax.x), Mathf.Clamp(transform.position.y, boundsMin.y, boundsMax.y), Mathf.Clamp(transform.position.z, boundsMin.z, boundsMax.z));
-        //if (Input.GetKeyDown(KeyCode.E))
+        //if (ButtonPress)
         //{
-            //cameraToMove.transform.position = new Vector3(50, 0, -10);
-            //Debug.Log("Camera moved! Hoozah!");
+          //  transform.position = offsetRoom * currentRoom;
         //}
+
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, currentRoom * offsetRoom +boundsMin.x, currentRoom * offsetRoom +boundsMax.x), 0f, -10f);
     }
 }
