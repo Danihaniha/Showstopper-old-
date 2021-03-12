@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3 Rooms.unity
     guid: 533a5400c7f172748befd1f2197bf445
+  - enabled: 1
+    path: Assets/Scenes/Accusation.unity
+    guid: 95e7ab365fa267b489b9b082266046af
   m_configObjects: {}
