@@ -1,0 +1,1 @@
+Art assets used in the EZPZBD_Example scene are from the Free Platform Game Assets package by Bayat Games. According to the description on the asset's page (at the time of writing this, 05/30/20), "This package is completely free of charge and you can use it in any kind of project, commercial or non-commercial, personal or company". 

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df8c737a2dd20c43b326d40ed29f2df, type: 3}
+  m_Name: TestDialogue2
+  m_EditorClassIdentifier: 
+  treeName: 
+  startIndex: 0
+  nodeList:
+  - nodeIndex: 0
+    enumType: 0
+    inPoints: 0
+    outPoints: 0
+    position: {x: 0, y: 0}
+    inNodeIndexes: []
+    outNodeIndexes: []
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  variableList:
+  - name: Temp Variable
+    boolVal: 0
+    intVal: 0
+    floatVal: 0
+    stringVal: 

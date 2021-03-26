@@ -1,0 +1,2505 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df8c737a2dd20c43b326d40ed29f2df, type: 3}
+  m_Name: Blubert
+  m_EditorClassIdentifier: 
+  treeName: Blubert
+  startIndex: 0
+  nodeList:
+  - nodeIndex: 0
+    enumType: 0
+    inPoints: 0
+    outPoints: 0
+    position: {x: 0, y: 0}
+    inNodeIndexes: []
+    outNodeIndexes: []
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: Blubert
+      speakerSprite: {fileID: 21300000, guid: e8d399014dd767442a99d46cfd85ade6, type: 3}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 1
+    enumType: 1
+    inPoints: 0
+    outPoints: 1
+    position: {x: 3, y: 157}
+    inNodeIndexes: []
+    outNodeIndexes:
+    - nodeIndex: 2
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 2
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 191, y: 140}
+    inNodeIndexes:
+    - nodeIndex: 1
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 3
+      connectionIndex: 0
+    dN:
+      dialogue: ...
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 3
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 470.00006, y: 141}
+    inNodeIndexes:
+    - nodeIndex: 2
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 5
+      connectionIndex: 0
+    dN:
+      dialogue: Oh, sorry, I didn't see you there. I love looking at the water.
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 4
+    enumType: 4
+    inPoints: 3
+    outPoints: 2
+    position: {x: 1050, y: 170}
+    inNodeIndexes:
+    - nodeIndex: 5
+      connectionIndex: 0
+    - nodeIndex: 6
+      connectionIndex: 1
+    - nodeIndex: 7
+      connectionIndex: 2
+    outNodeIndexes:
+    - nodeIndex: 10
+      connectionIndex: 0
+    - nodeIndex: 12
+      connectionIndex: 1
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 5
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 743, y: 136}
+    inNodeIndexes:
+    - nodeIndex: 3
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 4
+      connectionIndex: 0
+    dN:
+      dialogue: Do you like the water, babe?
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 6
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 741, y: 261}
+    inNodeIndexes: []
+    outNodeIndexes:
+    - nodeIndex: 4
+      connectionIndex: 0
+    dN:
+      dialogue: Yes
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 7
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 739, y: 383.00006}
+    inNodeIndexes: []
+    outNodeIndexes:
+    - nodeIndex: 4
+      connectionIndex: 0
+    dN:
+      dialogue: No
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 8
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 1746, y: 102.99999}
+    inNodeIndexes:
+    - nodeIndex: 10
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 9
+      connectionIndex: 0
+    dN:
+      dialogue: It's so peaceful, isn't it? You know, my dad used to say..
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 9
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 2048, y: 101.99999}
+    inNodeIndexes:
+    - nodeIndex: 8
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 13
+      connectionIndex: 0
+    dN:
+      dialogue: <i>"There are plenty of fish in the sea!"</i>
+      advancedOptions: 1
+      speakerName: Blubert's dad
+      speakerSprite: {fileID: 21300000, guid: 85083c00444a1ab4b83a8260860d202b, type: 3}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 10
+    enumType: 7
+    inPoints: 3
+    outPoints: 1
+    position: {x: 1489, y: 102.99999}
+    inNodeIndexes:
+    - nodeIndex: 4
+      connectionIndex: 0
+    - nodeIndex: 11
+      connectionIndex: 1
+    outNodeIndexes:
+    - nodeIndex: 8
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 1
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 1
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 11
+    enumType: 5
+    inPoints: 0
+    outPoints: 1
+    position: {x: 1297, y: 224}
+    inNodeIndexes: []
+    outNodeIndexes:
+    - nodeIndex: 10
+      connectionIndex: 0
+    - nodeIndex: 12
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 1
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 12
+    enumType: 7
+    inPoints: 3
+    outPoints: 1
+    position: {x: 1484, y: 252.00002}
+    inNodeIndexes:
+    - nodeIndex: 4
+      connectionIndex: 0
+    - nodeIndex: 11
+      connectionIndex: 1
+    outNodeIndexes:
+    - nodeIndex: 16
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 1
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 13
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 2328, y: 96.99999}
+    inNodeIndexes:
+    - nodeIndex: 9
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 14
+      connectionIndex: 0
+    dN:
+      dialogue: Not sure what he was talking about though...I haven't been able to
+        catch anything!
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 14
+    enumType: 10
+    inPoints: 1
+    outPoints: 1
+    position: {x: 2602.9995, y: 113.99999}
+    inNodeIndexes:
+    - nodeIndex: 13
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 15
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 1
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 15
+    enumType: 2
+    inPoints: 1
+    outPoints: 1
+    position: {x: 2794.9995, y: 118.99999}
+    inNodeIndexes:
+    - nodeIndex: 14
+      connectionIndex: 0
+    outNodeIndexes: []
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 16
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 1739, y: 318.00006}
+    inNodeIndexes:
+    - nodeIndex: 12
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 17
+      connectionIndex: 0
+    dN:
+      dialogue: No? Well, to each their own. I find it really peaceful. I remember
+        Orandrew telling me...
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 17
+    enumType: 9
+    inPoints: 1
+    outPoints: 1
+    position: {x: 2030, y: 327.00006}
+    inNodeIndexes:
+    - nodeIndex: 16
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 18
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: Orandrew
+      speakerSprite: {fileID: 21300000, guid: b9a0816b577f79f46893b6917349d286, type: 3}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 18
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 2352, y: 345.00006}
+    inNodeIndexes:
+    - nodeIndex: 17
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 19
+      connectionIndex: 0
+    dN:
+      dialogue: <i>Blubert, take a look out over that water. You know what I see?</i>
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 19
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 2631.9995, y: 345.00006}
+    inNodeIndexes:
+    - nodeIndex: 18
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 20
+      connectionIndex: 0
+    dN:
+      dialogue: <i>Cold and slimy fish! I hate it here, I'm going back to start a
+        toll station!</i>
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 20
+    enumType: 9
+    inPoints: 1
+    outPoints: 1
+    position: {x: 2903.9995, y: 331.00006}
+    inNodeIndexes:
+    - nodeIndex: 19
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 21
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: Blubert
+      speakerSprite: {fileID: 21300000, guid: e8d399014dd767442a99d46cfd85ade6, type: 3}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 21
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 3213.9995, y: 348.00006}
+    inNodeIndexes:
+    - nodeIndex: 20
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 22
+      connectionIndex: 0
+    dN:
+      dialogue: That was only 5 minutes ago but if feels like forever. Maybe I should
+        visit him!
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 22
+    enumType: 10
+    inPoints: 1
+    outPoints: 1
+    position: {x: 3485.9995, y: 371.00006}
+    inNodeIndexes:
+    - nodeIndex: 21
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 23
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 1
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 23
+    enumType: 2
+    inPoints: 1
+    outPoints: 1
+    position: {x: 3665.9995, y: 378.00006}
+    inNodeIndexes:
+    - nodeIndex: 22
+      connectionIndex: 0
+    outNodeIndexes: []
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 24
+    enumType: 1
+    inPoints: 0
+    outPoints: 1
+    position: {x: 11, y: 528}
+    inNodeIndexes: []
+    outNodeIndexes:
+    - nodeIndex: 25
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 1
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 25
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 192.00006, y: 520}
+    inNodeIndexes:
+    - nodeIndex: 24
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 26
+      connectionIndex: 0
+    dN:
+      dialogue: 'Hello again! I realized I never introduced myself! I''m {var:SpeakerName}. '
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 26
+    enumType: 6
+    inPoints: 3
+    outPoints: 2
+    position: {x: 533, y: 521}
+    inNodeIndexes:
+    - nodeIndex: 25
+      connectionIndex: 0
+    - nodeIndex: 35
+      connectionIndex: 1
+    outNodeIndexes:
+    - nodeIndex: 27
+      connectionIndex: 0
+    - nodeIndex: 31
+      connectionIndex: 1
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 1
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 1
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 27
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 746, y: 523}
+    inNodeIndexes:
+    - nodeIndex: 26
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 28
+      connectionIndex: 0
+    dN:
+      dialogue: I know you already told me you like the water, but I can't stop talking
+        about it! It's so pretty!
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 28
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 1032, y: 593}
+    inNodeIndexes:
+    - nodeIndex: 27
+      connectionIndex: 0
+    - nodeIndex: 31
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 29
+      connectionIndex: 0
+    dN:
+      dialogue: I think I'm going to stare at the water for a while now.
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 29
+    enumType: 10
+    inPoints: 1
+    outPoints: 1
+    position: {x: 1295, y: 613}
+    inNodeIndexes:
+    - nodeIndex: 28
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 30
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 2
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 30
+    enumType: 2
+    inPoints: 1
+    outPoints: 1
+    position: {x: 1490, y: 618}
+    inNodeIndexes:
+    - nodeIndex: 29
+      connectionIndex: 0
+    outNodeIndexes: []
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 31
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 745, y: 657}
+    inNodeIndexes:
+    - nodeIndex: 26
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 28
+      connectionIndex: 0
+    dN:
+      dialogue: 'I know you said you didn''t like the water, so I''ll try to keep
+        my enthusiasm to myself. '
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 32
+    enumType: 1
+    inPoints: 0
+    outPoints: 1
+    position: {x: 33, y: 779}
+    inNodeIndexes: []
+    outNodeIndexes:
+    - nodeIndex: 33
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 2
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 33
+    enumType: 3
+    inPoints: 1
+    outPoints: 1
+    position: {x: 201.00006, y: 764}
+    inNodeIndexes:
+    - nodeIndex: 32
+      connectionIndex: 0
+    outNodeIndexes:
+    - nodeIndex: 34
+      connectionIndex: 0
+    dN:
+      dialogue: <b><i>Blubert seems lost in the waves.</i></b>
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 34
+    enumType: 2
+    inPoints: 1
+    outPoints: 1
+    position: {x: 461.00006, y: 789}
+    inNodeIndexes:
+    - nodeIndex: 33
+      connectionIndex: 0
+    outNodeIndexes: []
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 0
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  - nodeIndex: 35
+    enumType: 5
+    inPoints: 0
+    outPoints: 1
+    position: {x: 342.00006, y: 649}
+    inNodeIndexes: []
+    outNodeIndexes:
+    - nodeIndex: 26
+      connectionIndex: 0
+    dN:
+      dialogue: 
+      advancedOptions: 0
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    sN:
+      startID: 0
+    iN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    bN:
+      inPins: 3
+      outPins: 2
+    vN:
+      selectedVarIndex: 0
+      selectedVarTypeIndex: 0
+      locked: 1
+      isGlobal: 0
+    lN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    eN:
+      selectedVarTypeIndex: 0
+      selectedEquationTypeIndex: 0
+      aValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      bValue:
+        defaultBValue: 0
+        defaultIValue: 0
+        defaultFValue: 0
+        defaultSValue: 
+      hasA: 0
+      hasB: 0
+    cN:
+      comment: 
+    nN:
+      speakerName: 
+      speakerSprite: {fileID: 0}
+    scN:
+      startID: 0
+    tfN:
+      isIn: 1
+      teleportID: 0
+  variableList:
+  - name: LikesWater
+    boolVal: 0
+    intVal: 0
+    floatVal: 0
+    stringVal: 
