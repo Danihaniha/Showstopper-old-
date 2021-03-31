@@ -8,6 +8,12 @@ public class SettingsMenu : MonoBehaviour
     public GameObject gameOverlayUI;
     public GameObject journalUI;
 
+    private Inventory inventory;
+
+    private void Awake()
+    {
+        inventory = new Inventory();
+    }
 
     public void ResumeGame()
     {
