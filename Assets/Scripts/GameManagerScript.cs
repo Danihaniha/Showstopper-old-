@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class SettingsMenu : MonoBehaviour
+public class GameManagerScript : MonoBehaviour
 {
+    [SerializeField] private UI_Inventory uiInventory;
+
     public GameObject settingsMenuUI;
     public GameObject gameOverlayUI;
     public GameObject journalUI;
@@ -13,6 +16,7 @@ public class SettingsMenu : MonoBehaviour
     private void Awake()
     {
         inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
     }
 
     public void ResumeGame()
